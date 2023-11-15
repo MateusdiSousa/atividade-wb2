@@ -14,7 +14,6 @@ class SideBar extends Component {
                             <li><Link to={'/servicos'}>Servicos</Link></li>
                             <li><Link to={'/produtos'}>Produtos</Link></li>
                             <li><Link to={'/clientes'}>Clientes</Link></li>
-                            <li><Link to={'/listagem'}>Histórico</Link></li>
                         </ul>
                     </div>
                 </nav>

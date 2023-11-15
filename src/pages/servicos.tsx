@@ -16,6 +16,8 @@ export class TelaServico extends Component {
                             <th>Name</th>
                             <th>Descrição</th>
                             <th>Preço</th>
+                            <th>Quantidade vendida</th>
+                            <th>Valor total em vendas</th>
                             <th>Opções</th>
                             <th><Link to={'/servicos/cadastro'} className=" btn-small transparent black-text">Adicionar Serviço</Link>
                             </th>
@@ -27,28 +29,36 @@ export class TelaServico extends Component {
                             <td>Depilaçao</td>
                             <td>Depilação muito boa</td>
                             <td>$80.25</td>
-                            <td><button>Editar</button><button>Deletar</button></td>
+                            <td>0</td>
+                            <td>$0.00</td>
+                            <td><Link to={'/servicos/Editar'}><button>Editar</button></Link><button onClick={()=>alert('Deletado com sucesso')}>Deletar</button></td>
                         </tr>
 
                         <tr>
                             <td>Manicure</td>
                             <td>Manicure muito boa</td>
                             <td>$80.25</td>
-                            <td><button>Editar</button><button>Deletar</button></td>
+                            <td>0</td>
+                            <td>$0.00</td>
+                            <td><Link to={'/servicos/Editar'}><button>Editar</button></Link><button onClick={()=>alert('Deletado com sucesso')}>Deletar</button></td>
                         </tr>
 
                         <tr>
                             <td>Limpeza de pele</td>
                             <td>Limpeza muito bom</td>
                             <td>$80.25</td>
-                            <td><button>Editar</button><button>Deletar</button></td>
+                            <td>0</td>
+                            <td>$0.00</td>
+                            <td><Link to={'/servicos/Editar'}><button>Editar</button></Link><button onClick={()=>alert('Deletado com sucesso')}>Deletar</button></td>
                         </tr>
 
                         <tr>
                             <td>Pintura de Cabelo</td>
                             <td>Uma tinta muito boa</td>
                             <td>$80.25</td>
-                            <td><button>Editar</button><button>Deletar</button></td>
+                            <td>0</td>
+                            <td>$0.00</td>
+                            <td><Link to={'/servicos/Editar'}><button>Editar</button></Link><button onClick={()=>alert('Deletado com sucesso')}>Deletar</button></td>
                         </tr>
                     </tbody>
                 </table>
